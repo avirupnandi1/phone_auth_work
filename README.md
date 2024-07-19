@@ -1,16 +1,23 @@
-# myapp
+# Firebase Phone OTP Authentication - Flutter
 
-A new Flutter project.
+## Description
+This Flutter application implements phone number authentication using Firebase OTP (One-Time Password). It provides a secure and user-friendly way for users to sign in to the app using their phone numbers.
 
-## Getting Started
+## Features
+- Phone number input screen
+- OTP verification screen
+- Firebase Authentication integration
+- Error handling for authentication failures
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- Dart
+- Firebase Authentication
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
+- Flutter SDK
+- Firebase project with phone authentication enabled
+- Android/iOS emulator or physical device for testing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone the repository:
