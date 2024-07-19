@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:myapp/firebase_options.dart';
@@ -10,10 +9,10 @@ void main() async {
   Platform.isAndroid == true
       ? await Firebase.initializeApp(
           options: const FirebaseOptions(
-              apiKey: "AIzaSyCAEXkFB9SdEapLPnlxV4Xb9asyVTa8sYc",
-              appId: "1:459490752567:android:04df9e9ef98b085d77e7b2",
-              messagingSenderId: "459490752567",
-              projectId: "auth-project-e3b75"),
+              apiKey: "API KEY",
+              appId: "APP-id",
+              messagingSenderId: "ID",
+              projectId: "projectID"),
         )
       : await Firebase.initializeApp();
   runApp(const MyApp());
